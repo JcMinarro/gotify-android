@@ -96,6 +96,8 @@ dependencies {
     implementation("io.noties.markwon:ext-tables:$markwonVersion")
     implementation("io.noties.markwon:ext-strikethrough:$markwonVersion")
 
+    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.8.1")
+
     implementation("org.tinylog:tinylog-api-kotlin:$tinylogVersion")
     implementation("org.tinylog:tinylog-impl:$tinylogVersion")
 
