@@ -86,6 +86,7 @@ dependencies {
     implementation("androidx.swiperefreshlayout:swiperefreshlayout:1.1.0")
     implementation("androidx.vectordrawable:vectordrawable:1.2.0")
     implementation("androidx.preference:preference-ktx:1.2.1")
+    implementation("androidx.lifecycle:lifecycle-viewmodel-ktx:2.8.3")
 
     implementation("com.github.cyb3rko:QuickPermissions-Kotlin:1.1.5")
     implementation("io.coil-kt:coil:$coilVersion")
@@ -104,10 +105,4 @@ dependencies {
     implementation("com.google.code.gson:gson:2.11.0")
     implementation("com.squareup.retrofit2:retrofit:2.11.0")
     implementation("org.threeten:threetenbp:1.7.0")
-}
-
-configurations {
-    configureEach {
-        exclude(group = "androidx.lifecycle", module = "lifecycle-viewmodel-ktx")
-    }
 }
