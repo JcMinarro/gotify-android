@@ -296,10 +296,7 @@ private fun Paging.toPagingState(): PagingState = PagingState(since, next != nul
  * @property since The older message id value of the paging.
  * @property hasMore A boolean value that indicates if there are more messages.
  */
-private data class PagingState(
-    val since: Long = 0,
-    val hasMore: Boolean = true
-)
+private data class PagingState(val since: Long = 0, val hasMore: Boolean = true)
 
 /**
  * A class that represents the state of the application.
